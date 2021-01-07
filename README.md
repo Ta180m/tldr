@@ -1,6 +1,6 @@
 # tldr
 
-My Linux cheatsheets, compatible with [tldr](https://tldr.sh/).
+My Linux cheatsheets, compatible with [tldr](https://tldr.sh/). Most of the sheets are indended for my personal use, so no guarentee about the quality!
 
 
 ## Usage
