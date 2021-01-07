@@ -5,4 +5,4 @@
 
 - Run application on dedicated GPU:
 
-`DRI_PRIME=1 {{application_name}}
+`DRI_PRIME=1 {{application_name}}`
