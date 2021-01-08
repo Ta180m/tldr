@@ -7,7 +7,11 @@
 
 `git clone ssh://aur@aur.archlinux.org/{{package_name}}.git`
 
-- Build the package and update .SRCINFO:
+- Build the package:
+
+`makepkg -s`
+
+- Update .SRCINFO:
 
 `makepkg --printsrcinfo > .SRCINFO`
 
