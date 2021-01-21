@@ -2,7 +2,11 @@
 
 > Change clock of various components
 
-- Print dedicated CPU clocks:
+- List available CPU governors:
+
+`cat /sys/devices/system/cpu/cpufreq/policy?/energy_performance_available_preferences`
+
+- Print current CPU governor:
 
 `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor`
 
