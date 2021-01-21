@@ -19,43 +19,43 @@
 
 `yay -Ss {{keyword}}`
 
-- Get information about a package
+- Get information about a package:
 
 `yay -Si {{package_name}}`
 
-- Clean the package cache
+- Clean the package cache:
 
 `yay -Sc`
 
-- Completely wipe the package cache
+- Completely wipe the package cache:
 
 `yay -Scc`
 
-- Uninstall a package and delete config files
+- Uninstall a package and delete config files:
 
 `yay -Rns {{package_name}}`
 
-- Install a local package (useful for rolling back updates)
+- Install a local package (useful for rolling back updates):
 
 `yay -U /var/cache/pacman/pkg/{{package_name}}`
 
-- Find out which package owns a file
+- Find out which package owns a file:
 
 `yay -Qo {{file_name}}`
 
-- List files contained in a package
+- List files contained in a package:
 
 `yay -Ql {{package_name}
 
-- List all explicitly installed packages (includes AUR packages)
+- List all explicitly installed packages (includes AUR packages):
 
 `yay -Qe`
 
-- Save all explicitily installed packages to a file
+- Save all explicitily installed packages to a file:
 
 `yay -Qe | awk '{print $1}' > packages.txt`
 
-- Remove all unneeded dependencies
+- Remove unneeded dependencies:
 
 `yay -Yc`
 
