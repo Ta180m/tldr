@@ -18,10 +18,10 @@
 
 `sudo cpupower frequency-set -g powersave`
 
-- Print dedicated GPU clocks (first card):
+- Print dedicated GPU clocks:
 
-`sudo cat /sys/kernel/debug/dri/0/pstate`
+`sudo cat /sys/kernel/debug/dri/1/pstate`
 
 - Reclock the dedicated GPU:
 
-`echo {{pstate}} | sudo tee /sys/kernel/debug/dri/0/pstate`
+`echo {{pstate}} | sudo tee /sys/kernel/debug/dri/1/pstate`
